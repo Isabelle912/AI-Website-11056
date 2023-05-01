@@ -1,51 +1,54 @@
-/* Navbar styles */
 .navbar {
-	background-color: #fff;
+	background-color: #3ec3dd;
 }
 
-.navbar-brand {
+.navbartitle {
 	font-size: 2rem;
 	font-weight: bold;
+    text-align: center;
 }
+
 
 .nav-link {
 	font-size: 1.2rem;
 }
 
-/* Jumbotron styles */
 .jumbotron {
 	background-color: #f8f9fa;
 	padding: 5rem;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .jumbotron h1 {
 	font-size: 4rem;
 	font-weight: bold;
+	text-align: center;
 }
 
 .jumbotron p {
 	font-size: 1.5rem;
+	text-align: center;
 }
 
-/* Container styles */
+
 .container {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
 
-.column {
+.col-sm-4 {
 	padding: 2rem;
 	text-align: center;
 }
 
-.column h2 {
+.col-sm-4 h2 {
 	font-size: 2.5rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
 }
 
-.column p {
+.col-sm-4 p {
 	font-size: 1.2rem;
 	line-height: 1.5;
 	margin-bottom: 1rem;
