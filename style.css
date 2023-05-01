@@ -86,4 +86,36 @@ body {
 	padding: 20px;
 	text-align: center;
   }
-  
+
+
+li {
+    display: inline;
+	float: right;
+}
+
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: hsl(45, 3%, 31%);
+	}
+	 
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	
+	
+	li a:hover {
+	background-color: #111;
+	}
+	
+	
+	a {
+		font-family: "futura-pt-1","futura-pt-2",sans-serif;
+		color:rgb(255, 255, 255);
+	}

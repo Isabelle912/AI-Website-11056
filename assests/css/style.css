@@ -1,84 +1,121 @@
-.navbar {
-	background-color: #3ec3dd;
-}
-
-.navbartitle {
-	font-size: 2rem;
+/* Set the font family and font size for the entire website */
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+  }
+  
+  /* Set the color scheme for the website */
+  .primary-color {
+	color: #0072c6;
+  }
+  
+  .secondary-color {
+	color: #6d6d6d;
+  }
+  
+  .background-color {
+	background-color: #f6f6f6;
+  }
+  
+  /* Style for the navigation bar */
+  .top-bar {
+	background-color: #fff;
+	border-bottom: 1px solid #d9d9d9;
+  }
+  
+  .top-bar a {
+	color: #333;
+  }
+  
+  .top-bar a:hover {
+	color: #0072c6;
+  }
+  
+  /* Style for buttons */
+  .button {
+	background-color: #0072c6;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+  }
+  
+  .button:hover {
+	background-color: #005baa;
+  }
+  
+  /* Style for headings */
+  h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-    text-align: center;
-}
-
-
-.nav-link {
-	font-size: 1.2rem;
-}
-
-.jumbotron {
-	background-color: #f8f9fa;
-	padding: 5rem;
-	margin-bottom: 0;
-	text-align: center;
-}
-
-.jumbotron h1 {
-	font-size: 4rem;
+	margin-top: 0;
+	margin-bottom: 10px;
+  }
+  
+  h1 {
+	font-size: 36px;
+  }
+  
+  h2 {
+	font-size: 30px;
+  }
+  
+  h3 {
+	font-size: 24px;
+  }
+  
+  .form-label {
 	font-weight: bold;
+  }
+  
+  .form-input {
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+  }
+  
+  .form-input:focus {
+	outline: none;
+	border-color: #0072c6;
+  }
+  
+  /* Style for footer */
+  .footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 	text-align: center;
+  }
+
+
+li {
+    display: inline;
+	float: right;
 }
 
-.jumbotron p {
-	font-size: 1.5rem;
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: hsl(45, 3%, 31%);
+	}
+	 
+	li a {
+	display: block;
+	color: white;
 	text-align: center;
-}
-
-
-.container {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-}
-
-.col-sm-4 {
-	padding: 2rem;
-	text-align: center;
-}
-
-.col-sm-4 h2 {
-	font-size: 2.5rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
-}
-
-.col-sm-4 p {
-	font-size: 1.2rem;
-	line-height: 1.5;
-	margin-bottom: 1rem;
-}
-
-
-@media (max-width: 991px) {
-	.navbar-brand {
-		font-size: 1.8rem;
+	padding: 14px 16px;
+	text-decoration: none;
 	}
 	
-	.nav-link {
-		font-size: 1rem;
+	
+	li a:hover {
+	background-color: #111;
 	}
 	
-	.jumbotron h1 {
-		font-size: 3rem;
-	}
 	
-	.jumbotron p {
-		font-size: 1.2rem;
+	a {
+		font-family: "futura-pt-1","futura-pt-2",sans-serif;
+		color:rgb(255, 255, 255);
 	}
-	
-	.col-sm-4 h2 {
-		font-size: 2rem;
-	}
-	
-	.col-sm-4 p {
-		font-size: 1rem;
-		line-height: 1.5;
-		margin-bottom: 1rem;
-	}
-}
