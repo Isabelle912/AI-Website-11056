@@ -2,6 +2,7 @@
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	background-color: #9dfad8;
   }
   
   .primary-color {
@@ -12,10 +13,6 @@ body {
 	color: #6d6d6d;
   }
   
-  .background-color {
-	background-color: #f6f6f6;
-  }
-  
   
   .top-bar {
 	background-color: #fff;
@@ -23,7 +20,7 @@ body {
   }
   
   .top-bar a {
-	color: #269ec0;
+	color: #196378;
   }
   
   .top-bar a:hover {
@@ -43,15 +40,15 @@ body {
   }
   
   
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+	font-size: 8em;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-family: Arial;
-  }
-  
-  h1 {
-	font-size: 36px;
+	text-align: center;
+	color: rgb(95, 24, 182);
+	text-decoration-style: dotted;
   }
   
   h2 {
@@ -81,7 +78,7 @@ body {
   
  
   footer {
-	background-color: #333;
+	background-color: #002a8c;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -98,7 +95,7 @@ li {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: hsl(176, 79%, 65%);
+	background-color: hsl(176, 49%, 32%);
 	}
 	 
 	li a {
@@ -111,7 +108,7 @@ li {
 	
 	
 	li a:hover {
-	background-color: #111;
+	background-color: #1e0076;
 	}
 	
 	
@@ -120,9 +117,22 @@ li {
 		color:rgb(255, 255, 255);
 	}
 
-	.small-12 .medium-6 .columns {
+
+	.Classes {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 50%;
+	}
+
+	p {
+		text-align: center;
+		font-family: Arial;
+		font-size: 3em;
+		color: rgb(10, 1, 88);
+	}
+
+	.footertext {
+		text-align: center;
+		font-family: Arial;
+		color: white;
 	}
