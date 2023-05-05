@@ -136,3 +136,27 @@ li {
 		font-family: Arial;
 		color: white;
 	}
+
+	.special{
+		display: block;
+		width: 100%;
+        height: auto;
+        left: 0px;
+        right: 0px;
+	}
+
+	.row {
+		text-align: center;
+	}
+
+	@media screen and (max-width: 900px) {
+		.column {
+		  width: 50%;
+		}
+	  }
+	
+	  @media screen and (max-width: 600px) {
+		.column {
+		  width: 100%;
+		}
+	}
