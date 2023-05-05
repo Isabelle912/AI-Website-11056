@@ -2,13 +2,19 @@
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	background-color: #9dfad8;
+	background-color: #61d3a9;
   }
   
+  .logo {
+	float: left;
+	width: 0.5px;
+	height: 0.5px;
+  }
   .primary-color {
 	color: #0072c6;
   }
   
+
   .secondary-color {
 	color: #6d6d6d;
   }
@@ -32,7 +38,7 @@ body {
 	background-color: #0072c6;
 	color: #fff;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 6px;
   }
   
   .button:hover {
@@ -41,23 +47,18 @@ body {
   
   
   h1 {
-	font-size: 8em;
+	font-size: 2em;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-family: Arial;
 	text-align: center;
-	color: rgb(95, 24, 182);
-	text-decoration-style: dotted;
+	color: rgb(110, 60, 171);
+	-webkit-text-stroke: 1px #1e0076;
+	padding-right: 5%;
+	padding-left:5%;
   }
   
-  h2 {
-	font-size: 30px;
-  }
-  
-  h3 {
-	font-size: 24px;
-  }
   
   .form-label {
 	font-weight: bold;
@@ -78,7 +79,7 @@ body {
   
  
   footer {
-	background-color: #002a8c;
+	background-color: #3c5ca8;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -88,6 +89,7 @@ body {
 li {
     display: inline;
 	float: right;
+	padding-top: 0.5%;
 }
 
   ul {
@@ -95,7 +97,7 @@ li {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: hsl(176, 49%, 32%);
+	background-color: #3c5ca8;
 	}
 	 
 	li a {
@@ -122,19 +124,29 @@ li {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%;
+		height: auto;
+		-webkit-text-stroke: 0.5px #1e0076;
+		color: white;
+		font-style: bold;
+		font-size: 2em;
 	}
 
 	p {
 		text-align: center;
 		font-family: Arial;
-		font-size: 3em;
+		font-size: 1em;
 		color: rgb(10, 1, 88);
+		padding-left: 20%;
+		padding-right: 20%;
+		font-style:italic;
 	}
 
 	.footertext {
 		text-align: center;
 		font-family: Arial;
 		color: white;
+		font-size: 6vh;
 	}
 
 	.special{
@@ -145,10 +157,51 @@ li {
         right: 0px;
 	}
 
-	.row {
-		text-align: center;
+	.turtle {
+		display: block;
+		width: 60%;
+        height: auto;
+        margin-left: auto;
+		margin-right: auto;
+		object-position: center;
 	}
 
+	.fishing {
+		display: block;
+		width: 100%;
+        height: auto;
+        margin-left: auto;
+		margin-right: auto;
+		object-position: center;
+	}
+
+	.dragon {
+		display: block;
+		width: 100%;
+        height: auto;
+        margin-left: auto;
+		margin-right: auto;
+		object-position: center;
+	}
+	.row {
+		text-align: center;
+		font-family: Arial;
+		font-size: 8vh;
+		color: #1e0076;
+		font-style: bold;
+		
+	}
+
+
+	.navlogo{
+		width: 10vh;
+		height: auto;
+		padding-left: 2%;
+	}
+@viewport {
+  width: auto; 
+  zoom: 1.0;
+} 
 	@media screen and (max-width: 900px) {
 		.column {
 		  width: 50%;
