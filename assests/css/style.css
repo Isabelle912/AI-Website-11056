@@ -1,10 +1,9 @@
-/* Set the font family and font size for the entire website */
+
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
   }
   
-  /* Set the color scheme for the website */
   .primary-color {
 	color: #0072c6;
   }
@@ -17,21 +16,21 @@ body {
 	background-color: #f6f6f6;
   }
   
-  /* Style for the navigation bar */
+  
   .top-bar {
 	background-color: #fff;
 	border-bottom: 1px solid #d9d9d9;
   }
   
   .top-bar a {
-	color: #333;
+	color: #269ec0;
   }
   
   .top-bar a:hover {
 	color: #0072c6;
   }
   
-  /* Style for buttons */
+ 
   .button {
 	background-color: #0072c6;
 	color: #fff;
@@ -43,11 +42,12 @@ body {
 	background-color: #005baa;
   }
   
-  /* Style for headings */
+  
   h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 10px;
+	font-family: Arial;
   }
   
   h1 {
@@ -98,7 +98,7 @@ li {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: hsl(45, 3%, 31%);
+	background-color: hsl(176, 79%, 65%);
 	}
 	 
 	li a {
@@ -118,4 +118,11 @@ li {
 	a {
 		font-family: "futura-pt-1","futura-pt-2",sans-serif;
 		color:rgb(255, 255, 255);
+	}
+
+	.small-12 .medium-6 .columns {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
